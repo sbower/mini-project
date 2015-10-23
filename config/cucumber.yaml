@@ -1,0 +1,3 @@
+default: features --tags ~@ignore
+wip: --tags @wip:3 --wip features
+rerun: --format rerun --out rerun.txt --strict --tags ~@wip
